@@ -15,23 +15,54 @@
 
 <title>My Favorite</title>
 <meta charset="utf-8">
+<style>
 
+html {margin:0; border:10px double pink;}
+
+  a{text-decoration:none; color:black}
+
+  h1 {font-size:280%; text-align:center;
+    border-bottom:1px solid gray;
+      margin:0; padding:30px;}
+
+  h1 a {color:deeppink}
+
+  #grid {grid-template-columns: 150px 1fr;
+    display:grid;}
+
+  #olol {border-right:1px solid gray; 
+    padding:15px; padding-left:5px; padding-right:10px;
+    width:120px;
+    margin:0; font-size:18px; font-style: oblique; font-weight:500;}
+
+  #내용 {padding:20px; padding-top:5px;}
+
+</style>
+  
 </head>
 
 
 <body>
-<h1><a href="index.html">My Favorite</a></h1>
+<h1> <a href="index.html">My Favorite</a></h1>
 
+
+<div id="grid">
+
+<div id="olol">
 <ol>
-<li><a href="001.html">음식</a></li>
-<li><a href="002.html">영화</a></li>
+<li><a href="001.html">음식</a></li><br>
+<li><a href="002.html">영화</a></li><br>
 <li><a href="003.html">음악</a></li>
 </ol>
+</div>
 
-
+<div id="내용">
 <p>
-<img src="https://i.imgur.com/dah4iPY.jpg" width="600" height="299">
+<a href="https://namu.wiki/w/%EC%A7%B1%EA%B5%AC%EB%8A%94%20%EB%AA%BB%EB%A7%90%EB%A0%A4" target="blank"><img src="https://i.imgur.com/dah4iPY.jpg" width="600" height="299"></a>
 </p>
+</div>
+
+</div>
 
 </body>
 

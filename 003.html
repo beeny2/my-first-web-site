@@ -15,7 +15,37 @@
 
 <title>음악</title>
 <meta charset="utf-8">
+<style>
 
+html {margin:0; border:10px double pink;}
+
+  a{text-decoration:none; color:black}
+
+  h1 {font-size:280%; text-align:center;
+    border-bottom:1px solid gray;
+      margin:0; padding:30px;}
+
+  h1 a {color:deeppink}
+
+  #active {color:hotpink; text-decoration:underline;}
+
+  #link {color:violet; font-size:80%;}
+
+  #grid {grid-template-columns: 150px 1fr;
+    display:grid;}
+
+  #olol {border-right:1px solid gray; 
+    padding:15px; padding-left:5px; padding-right:10px;
+    width:120px;
+    margin:0; font-size:18px; font-style: oblique; font-weight:500;}
+
+  #내용 {padding:20px; padding-top:5px;}
+
+
+  
+  </style>
+
+  
 </head>
 
 
@@ -23,19 +53,32 @@
 
 <h1><a href="index.html">My Favorite</a></h1>
 
-<ol>
-<li><a href="001.html">음식</a></li>
-<li><a href="002.html">영화</a></li>
-<li><a href="003.html">음악</a></li>
-</ol>
 
+<div id="grid">
+
+<div id="olol">
+<ol>
+<li><a href="001.html">음식</a></li><br>
+<li><a href="002.html">영화</a></li><br>
+<li><a href="003.html" id="active"><strong>음악</strong></a></li>
+</ol>
+</div>
+
+<div id="내용">
 <h2>음악</h2>
 
 <p>
-<a href="https://youtu.be/6366dxFf-Os?feature=shared">1. Arctic Monkeys - Why'd You Only Call Me When You're High?</a><br><br><br>
-<a href="https://youtu.be/m2ua3O_fdCY?si=ebLYNMsaA2LvyszX">2. Miley Cyrus & Ariana Grande - Don't Dream It's Over</a><br><br><br>
-<a href="https://youtu.be/fHiGbolFFGw?si=LdVT0l_CfExsLydB"> 3. Radiohead - Paranoid Android</a><br><br>
+1. Arctic Monkeys - Why'd You Only Call Me When You're High?
+<a href="https://youtu.be/6366dxFf-Os?feature=shared" id="link" target="blank">[link]</a><br><br><br>
+2. Miley Cyrus & Ariana Grande - Don't Dream It's Over 
+<a href="https://youtu.be/m2ua3O_fdCY?si=ebLYNMsaA2LvyszX" id="link" target="blank">[link]</a><br><br><br>
+3. Radiohead - Paranoid Android 
+<a href="https://youtu.be/fHiGbolFFGw?si=LdVT0l_CfExsLydB" id="link" target="blank">[link]</a>
 </p>
+</div>
+
+</div>
+
 </body>
 
 </html>
